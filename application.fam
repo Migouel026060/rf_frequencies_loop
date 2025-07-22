@@ -1,0 +1,7 @@
+App(
+    name="RF Loop",
+    description="8-52 bits sur 5 fréquences, Start/Stop",
+    author="ChatGPT",
+    version="1.0.0",
+    icon="rf_remote",
+)
