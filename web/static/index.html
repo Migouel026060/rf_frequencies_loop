@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MicroFinance Plus</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">MicroFinance Plus</div>
+        <nav>
+          <a href="#services">Services</a>
+          <a href="#impact">Impact</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="btn" href="#contact">Demander un prêt</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="tag">Financement inclusif</p>
+            <h1>Des solutions de microfinance pour faire grandir votre activité.</h1>
+            <p>
+              Accédez à des microcrédits rapides, un accompagnement personnalisé,
+              et des outils pour piloter votre trésorerie.
+            </p>
+            <div class="cta-row">
+              <a class="btn" href="#contact">Commencer</a>
+              <a class="btn secondary" href="#services">Voir les offres</a>
+            </div>
+          </div>
+          <div class="card stats">
+            <h3>Chiffres clés</h3>
+            <ul>
+              <li><strong>+12 000</strong> entrepreneurs financés</li>
+              <li><strong>98%</strong> de satisfaction client</li>
+              <li><strong>24h</strong> pour une réponse de principe</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <h2>Nos services</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Microcrédit pro</h3>
+              <p>Financement de 500€ à 25 000€ pour vos besoins de démarrage et de croissance.</p>
+            </article>
+            <article class="card">
+              <h3>Épargne solidaire</h3>
+              <p>Construisez votre réserve de sécurité avec des plans d'épargne flexibles.</p>
+            </article>
+            <article class="card">
+              <h3>Accompagnement</h3>
+              <p>Des conseillers dédiés pour structurer votre business plan et votre gestion.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="impact" class="section muted">
+        <div class="container split">
+          <div>
+            <h2>Un impact local mesurable</h2>
+            <p>
+              Nous soutenons les TPE, artisans, commerçants et coopératives dans
+              toutes les étapes de leur développement.
+            </p>
+          </div>
+          <ul>
+            <li>✔ Plus de 3 500 emplois soutenus</li>
+            <li>✔ 70% des bénéficiaires en zone rurale</li>
+            <li>✔ Programme d'éducation financière gratuit</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div class="container split">
+        <div>
+          <h3>Contact</h3>
+          <p>Email: contact@microfinanceplus.example</p>
+          <p>Téléphone: +33 1 23 45 67 89</p>
+        </div>
+        <form class="card form" action="#" method="post">
+          <label>Nom<input type="text" name="name" required /></label>
+          <label>Email<input type="email" name="email" required /></label>
+          <label>Montant souhaité<input type="number" name="amount" min="100" /></label>
+          <button class="btn" type="submit">Envoyer</button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
